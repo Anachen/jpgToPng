@@ -26,7 +26,7 @@ def save_as(file,folder):
 
 
 
-def convert_to_pdf():
+def convert_to_png():
     pic_generator = get_pic_name(source_path)
     new_folder = save_to()
     while True:
@@ -38,4 +38,4 @@ def convert_to_pdf():
             print(err)
             break
 
-convert_to_pdf()
+convert_to_png()
